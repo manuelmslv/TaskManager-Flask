@@ -26,6 +26,4 @@ Abre tu navegador y visita `http://localhost:5000` para ver la aplicación en ac
 
 Las contribuciones son bienvenidas. Por favor, abre un issue o un pull request para sugerencias o mejoras.
 
-## Licencia
 
-MIT
