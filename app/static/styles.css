@@ -1,0 +1,115 @@
+/* Estilo general del cuerpo de la página */
+body {
+    font-family: "Rubik";
+    background: linear-gradient(to right, #86D9B2, #2E2E2E);
+    margin: 0;
+}
+
+/* Estilo para el elemento de prueba */
+.content-principal{
+    color: white;  
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh; 
+    margin-bottom: -200px;
+}
+
+/* Estilo para el contenedor de la caja de entrada y el botón */
+.box {
+    display: flex;
+    font-size: 1.7rem;
+    justify-content: center;
+    margin: 15px 0;
+    padding: 0.8rem;
+    width: 100%;
+}
+
+/* Estilo para la caja de entrada de texto */
+.box input {
+    color:white;
+    background: linear-gradient(to right, #86D9B2, #2E2E2E);
+    font-size: 17px;
+    border: none;
+    outline: none;
+    border-top-left-radius: 17px;
+    border-bottom-left-radius: 17px;
+    max-width: 500px;
+    transition: background-color 200ms ease-in-out;
+    width: 100%;
+    padding-left: 5px;
+    height: 40px;
+}
+
+/* Estilo para el botón dentro de la caja */
+.box button {
+    background-color: #2E2E2E;
+    color: white;
+    padding: 10px;
+    font-size: 17px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    min-width: 100px;
+    border:none;
+    outline: none;
+    border-left: 2px solid white;
+    cursor:pointer;
+    height: 42px;
+}
+
+/* Estilo para el botón dentro de la caja cuando se pasa el mouse sobre él */
+.box button:hover {
+    background-color: #686868;
+}
+
+/* Estilo para la lista de tareas */
+.task-list {
+    list-style: none;
+    padding: 0;
+}
+
+/* Estilo para cada elemento de tarea */
+.task-item {
+    background: linear-gradient(to right, #86D9B2, #2E2E2E);
+    color: white;
+    font-size: 12px;
+    margin: 5px auto;
+    padding: 6px;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    max-width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilo para cada elemento de tarea cuando se pasa el mouse sobre él */
+.task-item:hover {
+    transform: scale(1.05);
+}
+
+/* Estilo para el contenido de la tarea */
+.task-content {
+    flex-grow: 1;
+}
+
+/* Estilo para el botón Eliminar en cada elemento de tarea */
+.task-item button {
+    background-color: #2E2E2E;
+    color: white;
+    padding: 4px;
+    font-size: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin-left: auto;
+}
+
+/* Estilo para el botón Eliminar en cada elemento de tarea cuando se pasa el mouse sobre él */
+.task-item button:hover {
+    background-color: #2E2E2E;
+}
